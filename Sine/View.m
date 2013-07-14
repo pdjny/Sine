@@ -72,7 +72,7 @@ static void drawCell(void *p, CGContextRef c)
 	//********************************************************
 	//********************************************************
 	//********************************************************
-	/*
+	
 	//Pattern cell origin in lower left corner, Y axis points up.
 	CGAffineTransform patternScale = CGAffineTransformMakeScale(scale,  scale);
 	
@@ -104,7 +104,7 @@ static void drawCell(void *p, CGContextRef c)
 	CGContextSetFillPattern(c, pattern, color);
 	CGPatternRelease(pattern);
 	CGContextFillRect(c, self.bounds);
-	*/
+	
 	//********************************************************
 	//********************************************************
 	//********************************************************
